@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name        Nicoへだー
+// @name        NicoMenUse
 // @namespace   http://www.atomer.sakura.ne.jp/
 // @description ニコニコ動画のヘッダーメニューの拡張
 // @include     http://www.nicovideo.jp/*
