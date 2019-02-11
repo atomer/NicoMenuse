@@ -24,12 +24,12 @@ let nicomenu = {
                  '<a href="http://www.nicovideo.jp/ranking/fav/total/all">合計</a>' +
              '</div>'
     },
-    
+
     insertRankingMenu() {
         let info = this._getPage();
         info && this[info.page](info.target);
     },
-    
+
     admin(nav) {
         let li = nav.querySelector(".siteHeaderOther").previousSibling.previousSibling;
         li.querySelector("A").appendChild(document.createTextNode("▼"));
@@ -53,7 +53,7 @@ let nicomenu = {
         });
         li.addEventListener("mouseout", mouseout);
     },
-    
+
     _getPage() {
         let nav = document.querySelector(".siteHeaderMenuList");
         if (nav) {
