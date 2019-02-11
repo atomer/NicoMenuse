@@ -3,7 +3,7 @@
 // @namespace   http://www.atomer.sakura.ne.jp/
 // @description ニコニコ動画のヘッダーメニューの拡張
 // @include     https://www.nicovideo.jp/*
-// @version     0.2
+// @version     0.2.1
 // ==/UserScript==
 const MENU_BUTTON_ID = "_nicomenu_menu_button";
 const MENU_ID = "_nicomenu_insert_menu";
