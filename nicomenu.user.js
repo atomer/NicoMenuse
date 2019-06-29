@@ -10,18 +10,18 @@ const MENU_ID = "_nicomenu_insert_menu";
 let nicomenu = {
     VIDEO_RANKING: {
         admin: '<ul id="_nicomenu_insert_menu" style="display:none;">' +
-                   '<li><a href="http://www.nicovideo.jp/ranking/fav/hourly/all">毎時</a></li>' +
-                   '<li><a href="http://www.nicovideo.jp/ranking/fav/daily/all">デイリー</a></li>' +
-                   '<li><a href="http://www.nicovideo.jp/ranking/fav/weekly/all">週間</a></li>' +
-                   '<li><a href="http://www.nicovideo.jp/ranking/fav/monthly/all">月間</a></li>' +
-                   '<li><a href="http://www.nicovideo.jp/ranking/fav/total/all">合計</a></li>' +
+                   '<li><a href="https://www.nicovideo.jp/ranking/genre/all?term=hour">毎時</a></li>' +
+                   '<li><a href="https://www.nicovideo.jp/ranking/genre/all?term=24h">デイリー</a></li>' +
+                   '<li><a href="https://www.nicovideo.jp/ranking/genre/all?term=week">週間</a></li>' +
+                   '<li><a href="https://www.nicovideo.jp/ranking/genre/all?term=month">月間</a></li>' +
+                   '<li><a href="https://www.nicovideo.jp/ranking/genre/all?term=total">合計</a></li>' +
                '</ul>',
         top: '<div onmouseout="hideOBJ(\'headmenu_g2\'); return false;" class="headmenu_g">' +
-                 '<a href="http://www.nicovideo.jp/ranking/fav/hourly/all">毎時</a>' +
-                 '<a href="http://www.nicovideo.jp/ranking/fav/daily/all">デイリー</a>' +
-                 '<a href="http://www.nicovideo.jp/ranking/fav/weekly/all">週間</a>' +
-                 '<a href="http://www.nicovideo.jp/ranking/fav/monthly/all">月間</a>' +
-                 '<a href="http://www.nicovideo.jp/ranking/fav/total/all">合計</a>' +
+                 '<a href="https://www.nicovideo.jp/ranking/genre/all?term=hour">毎時</a>' +
+                 '<a href="https://www.nicovideo.jp/ranking/genre/all?term=24h">デイリー</a>' +
+                 '<a href="https://www.nicovideo.jp/ranking/genre/all?term=week">週間</a>' +
+                 '<a href="https://www.nicovideo.jp/ranking/genre/all?term=month">月間</a>' +
+                 '<a href="https://www.nicovideo.jp/ranking/genre/all?term=total">合計</a>' +
              '</div>'
     },
 
